@@ -1,5 +1,6 @@
 package com.example.busalarm_jeonju
 
+import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -10,12 +11,12 @@ class MainActivity : AppCompatActivity() {
     private var mBinding : ActivityMainBinding? = null
     private val binding get() = mBinding!!
     private var bottomNavigationBar : BottomNavigationView? = null
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         viewBinding()
         setBottomNavigation()
-
     }
 
     private fun replaceFragment(fragment: Fragment) {
