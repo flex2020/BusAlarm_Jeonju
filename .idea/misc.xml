@@ -6,15 +6,18 @@
         <entry key="..\:/Users/hosan/AndroidStudioProjects/BusAlarm_Jeonju/app/src/main/res/drawable/border.xml" value="0.295" />
         <entry key="..\:/Users/hosan/AndroidStudioProjects/BusAlarm_Jeonju/app/src/main/res/drawable/border_layout.xml" value="0.1" />
         <entry key="..\:/Users/hosan/AndroidStudioProjects/BusAlarm_Jeonju/app/src/main/res/drawable/button_round.xml" value="0.3235" />
+        <entry key="..\:/Users/hosan/AndroidStudioProjects/BusAlarm_Jeonju/app/src/main/res/drawable/custom_ripple.xml" value="0.194" />
         <entry key="..\:/Users/hosan/AndroidStudioProjects/BusAlarm_Jeonju/app/src/main/res/drawable/edit_round.xml" value="0.1" />
         <entry key="..\:/Users/hosan/AndroidStudioProjects/BusAlarm_Jeonju/app/src/main/res/drawable/ic_launcher_background.xml" value="0.13" />
         <entry key="..\:/Users/hosan/AndroidStudioProjects/BusAlarm_Jeonju/app/src/main/res/layout/activity_intro.xml" value="0.22" />
         <entry key="..\:/Users/hosan/AndroidStudioProjects/BusAlarm_Jeonju/app/src/main/res/layout/activity_main.xml" value="0.2361111111111111" />
         <entry key="..\:/Users/hosan/AndroidStudioProjects/BusAlarm_Jeonju/app/src/main/res/layout/fragment_home.xml" value="0.30480072463768115" />
-        <entry key="..\:/Users/hosan/AndroidStudioProjects/BusAlarm_Jeonju/app/src/main/res/layout/fragment_search.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/hosan/AndroidStudioProjects/BusAlarm_Jeonju/app/src/main/res/layout/fragment_search.xml" value="0.33" />
         <entry key="..\:/Users/hosan/AndroidStudioProjects/BusAlarm_Jeonju/app/src/main/res/layout/fragment_setting.xml" value="0.30932971014492755" />
+        <entry key="..\:/Users/hosan/AndroidStudioProjects/BusAlarm_Jeonju/app/src/main/res/layout/homerecyclerview_item.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/hosan/AndroidStudioProjects/BusAlarm_Jeonju/app/src/main/res/layout/menu_bottom.xml" value="0.33016304347826086" />
         <entry key="..\:/Users/hosan/AndroidStudioProjects/BusAlarm_Jeonju/app/src/main/res/layout/recyclerview_item.xml" value="0.2558876811594203" />
+        <entry key="..\:/Users/hosan/AndroidStudioProjects/BusAlarm_Jeonju/app/src/main/res/layout/searchrecylcerview_item.xml" value="0.3651041666666667" />
         <entry key="..\:/Users/hosan/AndroidStudioProjects/BusAlarm_Jeonju/app/src/main/res/menu/menu_bottom.xml" value="0.290295358649789" />
       </map>
     </option>

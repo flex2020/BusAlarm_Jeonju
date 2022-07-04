@@ -21,25 +21,29 @@
 
             <EditText
                 android:id="@+id/et_searching"
-                android:layout_marginTop="20dp"
+                android:layout_width="236dp"
+                android:layout_height="match_parent"
                 android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="20dp"
-                android:layout_width="294dp"
-                android:layout_height="match_parent"
+                android:paddingLeft="5dp"
                 android:background="@drawable/edit_round"
                 android:ems="10"
-                android:inputType="textPersonName"
-                android:textColor="@color/black"
                 android:hint="버스번호 입력"
-                android:text="" />
+                android:textColorHint="#888888"
+                android:inputType="number"
+                android:layout_weight="0.6"
+                android:textColor="@color/black" />
 
             <Button
                 android:id="@+id/btn_searching"
-                android:layout_width="wrap_content"
+                android:layout_width="126dp"
                 android:layout_height="match_parent"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="0.4"
                 android:background="@drawable/button_round"
                 android:text="검색" />
         </LinearLayout>
@@ -50,8 +54,14 @@
             android:layout_height="39dp"
             android:textColor="@color/black"
             android:gravity="center"
-            android:background="@drawable/border_layout"
+            android:background="@drawable/edit_round"
             android:text="검색한 버스가 아래에 표시됩니다." />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/searchRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:listitem="@layout/searchrecylcerview_item" />
     </LinearLayout>
 
 </FrameLayout>

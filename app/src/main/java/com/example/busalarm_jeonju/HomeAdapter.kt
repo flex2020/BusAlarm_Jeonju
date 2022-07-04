@@ -2,15 +2,12 @@ package com.example.busalarm_jeonju
 
 import android.content.Context
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.busalarm_jeonju.databinding.FragmentHomeBinding
-import com.example.busalarm_jeonju.databinding.RecyclerviewItemBinding
+import com.example.busalarm_jeonju.databinding.HomerecyclerviewItemBinding
 
-class MyAdapter(val dataList: ArrayList<ItemData>): RecyclerView.Adapter<MyAdapter.Holder>(){
-    inner class Holder(val binding: RecyclerviewItemBinding): RecyclerView.ViewHolder(binding.root) {
+class HomeAdapter(val dataList: ArrayList<ItemData>, val context: Context): RecyclerView.Adapter<HomeAdapter.Holder>(){
+    inner class Holder(val binding: HomerecyclerviewItemBinding): RecyclerView.ViewHolder(binding.root) {
 
         fun bind(item: ItemData) {
             binding.tvItem1.text = item.id + "번"
@@ -21,7 +18,7 @@ class MyAdapter(val dataList: ArrayList<ItemData>): RecyclerView.Adapter<MyAdapt
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): Holder {
-        val binding = RecyclerviewItemBinding.inflate(LayoutInflater.from(parent.context), parent, false)
+        val binding = HomerecyclerviewItemBinding.inflate(LayoutInflater.from(parent.context), parent, false)
         return Holder(binding)
     }
 
