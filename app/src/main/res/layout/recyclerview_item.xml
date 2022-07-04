@@ -22,7 +22,7 @@
         android:layout_marginBottom="5dp"
         android:background="@color/white"
         android:gravity="center"
-        android:text="출발지"
+        android:text="종점"
         android:textColor="@color/black" />
 
     <TextView
@@ -34,7 +34,7 @@
         android:layout_marginBottom="5dp"
         android:background="@color/white"
         android:gravity="center"
-        android:text="도착지"
+        android:text="설정한 목적지"
         android:textColor="@color/black" />
 
     <TextView
@@ -46,7 +46,7 @@
         android:layout_marginBottom="5dp"
         android:background="@color/white"
         android:gravity="center"
-        android:text="목적지"
+        android:text="도착까지 남은시간"
         android:textColor="@color/black" />
 
 </LinearLayout>

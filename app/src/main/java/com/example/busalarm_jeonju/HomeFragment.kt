@@ -12,17 +12,14 @@ import com.example.busalarm_jeonju.databinding.FragmentHomeBinding
 class HomeFragment : Fragment() {
     lateinit var binding: FragmentHomeBinding
     lateinit var myAdapter: MyAdapter
-    lateinit var dataList: ArrayList<ItemData>
+    lateinit var dataList: ArrayList<ItemData> // dataList: 즐겨찾기
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         binding = FragmentHomeBinding.inflate(inflater, container, false)
         dataList = ArrayList()
-        for(i: Int in 1..20) {
-            var item: ItemData = ItemData("1", "2", "3", "4")
-            dataList.add(item)
-        }
+
         setRecyclerView()
         return binding.root
     }

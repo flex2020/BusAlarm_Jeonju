@@ -13,10 +13,10 @@ class MyAdapter(val dataList: ArrayList<ItemData>): RecyclerView.Adapter<MyAdapt
     inner class Holder(val binding: RecyclerviewItemBinding): RecyclerView.ViewHolder(binding.root) {
 
         fun bind(item: ItemData) {
-            binding.tvItem1.text = item.id
-            binding.tvItem2.text = item.start
-            binding.tvItem3.text = item.end
-            binding.tvItem4.text = item.dest
+            binding.tvItem1.text = item.id + "번"
+            binding.tvItem2.text = item.end
+            binding.tvItem3.text = item.dest
+            binding.tvItem4.text = "약 " + item.time + "분"
         }
     }
 
