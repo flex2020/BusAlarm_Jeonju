@@ -11,7 +11,6 @@ import com.google.android.material.bottomnavigation.BottomNavigationView
 class MainActivity : AppCompatActivity() {
     private var mBinding : ActivityMainBinding? = null
     private val binding get() = mBinding!!
-    private var bottomNavigationBar : BottomNavigationView? = null
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
